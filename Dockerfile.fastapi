@@ -1,0 +1,8 @@
+FROM python:3.12.4-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY api.py .
+COPY device_recall.json .
+CMD [ "uvicorn" , "--host", "0.0.0.0" , "--port", "8000", "api:app"]
+EXPOSE 8000
