@@ -8,8 +8,7 @@ component.
 
 ## Description
 
-**Objective:** Create an API that could process [OpenFDA Data](\
-https://download.open.fda.gov/device/recall/device-recall-0001-of-0001.json.zip)
+**Objective:** Create an API that could process [OpenFDA Data](https://download.open.fda.gov/device/recall/device-recall-0001-of-0001.json.zip)
 based on user input.
 
 This project was entirely done using Python, with the focus on two libraries:
